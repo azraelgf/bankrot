@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<title>Личная информация</title>
+	<meta charset="UTF-8">
+	<meta name="format-detection" content="telephone=no">
+	<!-- <style>body{opacity: 0;}</style> -->
+	<link rel="stylesheet" href="css/style.min.css?_v=20240822201754">
+	<link rel="shortcut icon" href="favicon.ico">
+	<!-- <meta name="robots" content="noindex, nofollow"> -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+	<div class="wrapper">
+		<header class="header">
+			<div class="header__container">
+				<button type="button" class="menu__icon icon-menu"><span></span></button>
+				<a href="/" class="header__logo logo"><img src="img/logo.svg" alt="Logo"></a>
+				<div class="header__menu-block">
+					<div class="header__menu menu">
+						<nav class="menu__body">
+							<ul class="menu__list">
+								<li class="menu__item"><a href="#" class="menu__link">Главная</a></li>
+								<li class="menu__item"><a href="#" class="menu__link">Анкеты</a></li>
+								<li class="menu__item"><a href="#" class="menu__link">Документы</a></li>
+								<li class="menu__item"><a href="#" class="menu__link">Календарь</a></li>
+								<li class="menu__item"><a href="#" class="menu__link">Новости</a></li>
+								<li class="menu__item"><a href="#" class="menu__link">Задать вопрос</a></li>
+							</ul>
+						</nav>
+					</div>
+					<div class="header__search" data-da=".menu__list, 991.98">
+						<button class="search-btn _icon-search" type="button"></button>
+					</div>
+					<div class="header__user  user-header">
+						<div class="user-header__icon">АА</div>
+						<div class="user-header__arrow _icon-dropdown"></div>
+						<div class="user-header__submenu submenu-user">
+							<div class="submenu-user__title title title_h4">Александров Александр</div>
+							<ul class="submenu-user__list list-user">
+								<li class="list-user__item">
+									<a class="list-user__link" href="">Личные данные</a>
+								</li>
+								<li class="list-user__item">
+									<a class="list-user__link _icon-logout link-action" href="">Выйти</a>
+								</li>
+							</ul>
+						</div>
+
+					</div>
+					<div class="header__search-wrapper" data-da=".menu__list, 991.98">
+						<form action="#">
+							<div class="input-wrapper">
+								<input class="input-wrapper__input input" autocomplete="off" type="text" name="form[]" data-error="Ошибка" placeholder="">
+								<button class="input-wrapper__btn link-action _icon-search" type="submit"></button>
+							</div>
+						</form>
+					</div>
+				</div>
+			</div>
+		</header>
+
+		<main class="page">
+			<section class="hero-inner">
+				<div class="hero-inner__container">
+					<nav class="hero-inner__breadcrumbs breadcrumbs">
+						<ul class="breadcrumbs__list">
+							<li class="breadcrumbs__item"><a href="" class="breadcrumbs__link">Главная</a></li>
+							<li class="breadcrumbs__item"><span class="breadcrumbs__current">Личная информация</span>
+							</li>
+						</ul>
+					</nav>
+					<h1 class="title title_h1">Личная информация</h1>
+				</div>
+			</section>
+			<div class="personal section-padding">
+				<section class="personal__container">
+					<div class="personal__text text text_descr">Вы можете менять свои личные данные, пароли, управлять своим
+						аккаунтом
+					</div>
+					<div class="personal__data">
+						<form action="#" class="form">
+							<div class="form__row">
+								<label for="surname" class="form__label">Фамилия*</label>
+								<div class="input-wrapper">
+									<input type="text" id="surname" class="input-wrapper__input input" value="Александров">
+									<div class="input-wrapper__btn _icon-pencil"></div>
+								</div>
+							</div>
+							<div class="form__row">
+								<label for="name" class="form__label">Имя*</label>
+								<div class="input-wrapper">
+									<input type="text" id="name" class="input-wrapper__input input" value="Александр">
+									<div class="input-wrapper__btn _icon-pencil"></div>
+								</div>
+							</div>
+							<div class="form__row">
+								<label for="last-name" class="form__label">Отчество</label>
+								<div class="input-wrapper">
+									<input type="text" id="last-name" class="input-wrapper__input input" value="Александрович">
+									<div class="input-wrapper__btn _icon-pencil"></div>
+								</div>
+							</div>
+							<div class="form__row">
+								<label for="personal-id" class="form__label">Персональный ID*</label>
+								<div class="input-wrapper _readonly">
+									<input type="text" id="personal-id" class="input-wrapper__input input" readonly value="1203 5869 2597 0036">
+								</div>
+							</div>
+							<div class="form__row">
+								<label for="phone" class="form__label">Номер телефона*</label>
+								<div class="input-wrapper">
+									<input type="text" id="phone" class="input-wrapper__input input" value="+7 999 999 63 58">
+									<div class="input-wrapper__btn _icon-pencil"></div>
+								</div>
+							</div>
+							<div class="form__row">
+								<button class="form__button button button_green" type="submit">Сохранить изменения</button>
+							</div>
+						</form>
+					</div>
+					<div class="personal__password">
+						<div class="personal__password-inner">
+							<h4 class="personal__title title_h4 title">Изменение пароля</h4>
+							<form action="#" class="form">
+								<div class="form__row">
+									<label for="old-pass" class="form__label">Старый пароль</label>
+									<div class="input-wrapper">
+										<input type="password" id="old-pass" class="input-wrapper__input input" value="d845kgvuEE345">
+										<button class="input-wrapper__btn form__viewpass" type="button">
+											<i class="_icon-eye"></i>
+											<i class="_icon-crossed-eye"></i>
+										</button>
+									</div>
+								</div>
+								<div class="form__row">
+									<label for="new-pass" class="form__label">Новый пароль</label>
+									<div class="input-wrapper">
+										<input type="password" id="new-pass" class="input-wrapper__input input" value="Александр">
+										<button class="input-wrapper__btn form__viewpass" type="button">
+											<i class="_icon-eye"></i>
+											<i class="_icon-crossed-eye"></i>
+										</button>
+									</div>
+								</div>
+								<div class="form__row">
+									<button class="form__button button button_outline" type="submit">Изменить</button>
+								</div>
+							</form>
+						</div>
+					</div>
+				</section>
+			</div>
+		</main>
+		<footer class="footer">
+			<div class="footer__container">
+				<a href="/" class="footer__logo logo">
+
+					<img src="img/logo.svg" alt="Logo">
+					Сервис самостоятельного банкротства
+				</a>
+				<div class="footer-info">
+					<ul class="footer-info__menu">
+						<li><a href="">Анкеты</a></li>
+						<li><a href="">Документы</a></li>
+						<li><a href="">Календарь</a></li>
+						<li><a href="">Новости</a></li>
+						<li><a href="">Задать вопрос</a></li>
+					</ul>
+					<div class="footer-info__copy">
+						<a class="footer-info__text text text_small" href="">Политика конфиденциальности</a>
+						<div class="footer-info__text text text_small">© 2024 Название компании</div>
+					</div>
+				</div>
+			</div>
+		</footer>
+
+	</div>
+	<script src="js/app.min.js?_v=20240822201754"></script>
+</body>
+
+</html>

@@ -1,0 +1,458 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<title>Документы</title>
+	<meta charset="UTF-8">
+	<meta name="format-detection" content="telephone=no">
+	<!-- <style>body{opacity: 0;}</style> -->
+	<link rel="stylesheet" href="css/style.min.css?_v=20240822201754">
+	<link rel="shortcut icon" href="favicon.ico">
+	<!-- <meta name="robots" content="noindex, nofollow"> -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+	<div class="wrapper">
+		<header class="header">
+			<div class="header__container">
+				<button type="button" class="menu__icon icon-menu"><span></span></button>
+				<a href="/" class="header__logo logo"><img src="img/logo.svg" alt="Logo"></a>
+				<div class="header__menu-block">
+					<div class="header__menu menu">
+						<nav class="menu__body">
+							<ul class="menu__list">
+								<li class="menu__item"><a href="#" class="menu__link">Главная</a></li>
+								<li class="menu__item"><a href="#" class="menu__link">Анкеты</a></li>
+								<li class="menu__item"><a href="#" class="menu__link">Документы</a></li>
+								<li class="menu__item"><a href="#" class="menu__link">Календарь</a></li>
+								<li class="menu__item"><a href="#" class="menu__link">Новости</a></li>
+								<li class="menu__item"><a href="#" class="menu__link">Задать вопрос</a></li>
+							</ul>
+						</nav>
+					</div>
+					<div class="header__search" data-da=".menu__list, 991.98">
+						<button class="search-btn _icon-search" type="button"></button>
+					</div>
+					<div class="header__user  user-header">
+						<div class="user-header__icon">АА</div>
+						<div class="user-header__arrow _icon-dropdown"></div>
+						<div class="user-header__submenu submenu-user">
+							<div class="submenu-user__title title title_h4">Александров Александр</div>
+							<ul class="submenu-user__list list-user">
+								<li class="list-user__item">
+									<a class="list-user__link" href="">Личные данные</a>
+								</li>
+								<li class="list-user__item">
+									<a class="list-user__link _icon-logout link-action" href="">Выйти</a>
+								</li>
+							</ul>
+						</div>
+
+					</div>
+					<div class="header__search-wrapper" data-da=".menu__list, 991.98">
+						<form action="#">
+							<div class="input-wrapper">
+								<input class="input-wrapper__input input" autocomplete="off" type="text" name="form[]" data-error="Ошибка" placeholder="">
+								<button class="input-wrapper__btn link-action _icon-search" type="submit"></button>
+							</div>
+						</form>
+					</div>
+				</div>
+			</div>
+		</header>
+
+		<main class="page">
+			<section class="hero-inner">
+				<div class="hero-inner__container">
+					<nav class="hero-inner__breadcrumbs breadcrumbs">
+						<ul class="breadcrumbs__list">
+							<li class="breadcrumbs__item"><a href="" class="breadcrumbs__link">Главная</a></li>
+							<li class="breadcrumbs__item"><span class="breadcrumbs__current">Документы</span></li>
+						</ul>
+					</nav>
+					<h1 class="title title_h1">Документы</h1>
+				</div>
+			</section>
+			<section class="documents section-padding">
+				<div class="documents__container">
+					<form action="#" class="form">
+						<div class="form__item">
+							<div class="form__header">
+								<h2 class="title title_h2">Необходимые личные документы для&nbsp;процедуры банкротства</h2>
+								<button class="form__button button button_green _icon-download" type="submit">Скачать
+									пособие
+								</button>
+							</div>
+							<ol class="form__body">
+								<li class="form__row">
+									<label for="pict-1" class="form__label">СНИЛС*</label>
+									<!-- для окраски бордера в красный добавляем к download-wrapper класс _error-->
+									<div class="download-wrapper _error">
+										<div class="input-wrapper">
+											<input id="pict-1" class="input-wrapper__text input" readonly value="Загрузить документ">
+											<div class="input-wrapper__btn file">
+												<div class="file__item">
+													<input accept=".webp, .webp, .webp" type="file" name="image" class="file__input">
+													<div class="file__button button button_green _icon-download"></div>
+												</div>
+											</div>
+										</div>
+										<div class="form__message _error">
+											<i class="_icon-cross"></i>
+											Файл не загружен
+										</div>
+									</div>
+									<!--end  -->
+
+								</li>
+								<li class="form__row">
+									<label for="pict-2" class="form__label">Кредитные договоры*</label>
+									<div class="download-wrapper">
+										<div class="input-wrapper">
+											<input id="pict-2" class="input-wrapper__text input" readonly value="Загрузить документ">
+											<div class="input-wrapper__btn file">
+												<div class="file__item">
+													<input accept=".webp, .webp, .webp" type="file" name="image" class="file__input">
+													<div class="file__button button button_green _icon-download"></div>
+												</div>
+											</div>
+										</div>
+										<div class="form__message _success">
+											<i class="_icon-check"></i>
+											Файл загружен
+										</div>
+									</div>
+								</li>
+								<li class="form__row">
+									<label for="pict-3" class="form__label">Заверенная копия трудовой книжки</label>
+									<div class="download-wrapper">
+										<div class="input-wrapper">
+											<input id="pict-3" class="input-wrapper__text input" readonly value="Загрузить документ">
+											<div class="input-wrapper__btn file">
+												<div class="file__item">
+													<input accept=".webp, .webp, .webp" type="file" name="image" class="file__input">
+													<div class="file__button button button_green _icon-download"></div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</li>
+								<li class="form__row">
+									<label for="pict-4" class="form__label">2-НДФЛ за последние 3 года</label>
+									<div class="download-wrapper">
+										<div class="input-wrapper">
+											<input id="pict-4" class="input-wrapper__text input" readonly value="Загрузить документ">
+											<div class="input-wrapper__btn file">
+												<div class="file__item">
+													<input accept=".webp, .webp, .webp" type="file" name="image" class="file__input">
+													<div class="file__button button button_green _icon-download"></div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</li>
+								<li class="form__row">
+									<label for="pict-5" class="form__label">НДФЛ (при наличии статуса индивидуального
+										предпринимателя)*</label>
+									<div class="download-wrapper">
+										<div class="input-wrapper">
+											<input id="pict-5" class="input-wrapper__text input" readonly value="Загрузить документ">
+											<div class="input-wrapper__btn file">
+												<div class="file__item">
+													<input accept=".webp, .webp, .webp" type="file" name="image" class="file__input">
+													<div class="file__button button button_green _icon-download"></div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</li>
+								<li class="form__row">
+									<label for="pict-6" class="form__label">Уведомление о&nbsp;снятии с&nbsp;учёта
+										физического лица
+										в&nbsp;налоговом органе в&nbsp;качестве индивидуального предпринимателя (при&nbsp;наличии
+										статуса
+										индивидуального предпринимателя)*</label>
+									<div class="download-wrapper _error">
+										<div class="input-wrapper">
+											<input id="pict-6" class="input-wrapper__text input" readonly value="Загрузить документ">
+											<div class="input-wrapper__btn file">
+												<div class="file__item">
+													<input accept=".webp, .webp, .webp" type="file" name="image" class="file__input">
+													<div class="file__button button button_green _icon-download"></div>
+												</div>
+											</div>
+										</div>
+										<div class="form__message _error">
+											<i class="_icon-cross"></i>
+											Файл не загружен
+										</div>
+									</div>
+								</li>
+								<li class="form__row">
+									<label for="pict-7" class="form__label">Справка с центра занятости (при отсутствии
+										официальной трудовой деятельности)*</label>
+									<div class="download-wrapper _error">
+										<div class="input-wrapper">
+											<input id="pict-7" class="input-wrapper__text input" readonly value="Загрузить документ">
+											<div class="input-wrapper__btn file">
+												<div class="file__item">
+													<input accept=".webp, .webp, .webp" type="file" name="image" class="file__input">
+													<div class="file__button button button_green _icon-download"></div>
+												</div>
+											</div>
+										</div>
+										<div class="form__message _error">
+											<i class="_icon-cross"></i>
+											Файл не загружен
+										</div>
+									</div>
+								</li>
+								<li class="form__row">
+									<label for="pict-8" class="form__label">Свидетельство о рождении детей иждивенцев (при
+										наличии)</label>
+									<div class="download-wrapper">
+										<div class="input-wrapper">
+											<input id="pict-8" class="input-wrapper__text input" readonly value="Загрузить документ">
+											<div class="input-wrapper__btn file">
+												<div class="file__item">
+													<input accept=".webp, .webp, .webp" type="file" name="image" class="file__input">
+													<div class="file__button button button_green _icon-download"></div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</li>
+								<li class="form__row">
+									<label for="pict-9" class="form__label">Свидетельство о регистрации по месту жительства
+										ребенка (прописка) — дети, рожденные с 2012 года</label>
+									<div class="download-wrapper">
+										<div class="input-wrapper">
+											<input id="pict-9" class="input-wrapper__text input" readonly value="Загрузить документ">
+											<div class="input-wrapper__btn file">
+												<div class="file__item">
+													<input accept=".webp, .webp, .webp" type="file" name="image" class="file__input">
+													<div class="file__button button button_green _icon-download"></div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</li>
+								<li class="form__row">
+									<label for="pict-10" class="form__label">Справка с очной формы обучения колледжа/ВУЗа
+										ребенка (при наличии)</label>
+									<div class="download-wrapper">
+										<div class="input-wrapper">
+											<input id="pict-10" class="input-wrapper__text input" readonly value="Загрузить документ">
+											<div class="input-wrapper__btn file">
+												<div class="file__item">
+													<input accept=".webp, .webp, .webp" type="file" name="image" class="file__input">
+													<div class="file__button button button_green _icon-download"></div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</li>
+								<li class="form__row">
+									<label for="pict-11" class="form__label">Свидетельство о заключении (расторжении) брака
+										(при наличии)</label>
+									<div class="download-wrapper">
+										<div class="input-wrapper">
+											<input id="pict-11" class="input-wrapper__text input" readonly value="Загрузить документ">
+											<div class="input-wrapper__btn file">
+												<div class="file__item">
+													<input accept=".webp, .webp, .webp" type="file" name="image" class="file__input">
+													<div class="file__button button button_green _icon-download"></div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</li>
+								<li class="form__row">
+									<label for="pict-12" class="form__label">Копия брачного договора (при наличии)</label>
+									<div class="download-wrapper">
+										<div class="input-wrapper">
+											<input id="pict-12" class="input-wrapper__text input" readonly value="Загрузить документ">
+											<div class="input-wrapper__btn file">
+												<div class="file__item">
+													<input accept=".webp, .webp, .webp" type="file" name="image" class="file__input">
+													<div class="file__button button button_green _icon-download"></div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</li>
+							</ol>
+						</div>
+						<div class="form__item">
+							<div class="form__header">
+								<h2 class="title title_h2">Необходимые государственные документы для процедуры банкротства</h2>
+								<button class="form__button button button_green _icon-download" type="submit">Скачать
+									пособие
+								</button>
+							</div>
+							<ol class="form__body">
+								<li class="form__row">
+									<label for="pict2-1" class="form__label">Сведения о состоянии индивидуального лицевого счета застрахованного лица* </label>
+									<!-- для окраски бордера в красный добавляем к download-wrapper класс _error-->
+									<div class="download-wrapper _error">
+										<div class="input-wrapper">
+											<input id="pict2-1" class="input-wrapper__text input" readonly value="Загрузить документ">
+											<div class="input-wrapper__btn file">
+												<div class="file__item">
+													<input accept=".webp, .webp, .webp" type="file" name="image" class="file__input">
+													<div class="file__button button button_green _icon-download"></div>
+												</div>
+											</div>
+										</div>
+										<div class="form__message _error">
+											<i class="_icon-cross"></i>
+											Файл не загружен
+										</div>
+									</div>
+									<!--end  -->
+
+								</li>
+								<li class="form__row">
+									<label for="pict2-2" class="form__label">Выписка из «ЕГРН»*</label>
+									<div class="download-wrapper">
+										<div class="input-wrapper">
+											<input id="pict2-2" class="input-wrapper__text input" readonly value="Загрузить документ">
+											<div class="input-wrapper__btn file">
+												<div class="file__item">
+													<input accept=".webp, .webp, .webp" type="file" name="image" class="file__input">
+													<div class="file__button button button_green _icon-download"></div>
+												</div>
+											</div>
+										</div>
+										<div class="form__message _success">
+											<i class="_icon-check"></i>
+											Файл загружен
+										</div>
+									</div>
+								</li>
+								<li class="form__row">
+									<label for="pict2-3" class="form__label">Сведения из «ЕГРИП»* </label>
+									<div class="download-wrapper">
+										<div class="input-wrapper">
+											<input id="pict2-3" class="input-wrapper__text input" readonly value="Загрузить документ">
+											<div class="input-wrapper__btn file">
+												<div class="file__item">
+													<input accept=".webp, .webp, .webp" type="file" name="image" class="file__input">
+													<div class="file__button button button_green _icon-download"></div>
+												</div>
+											</div>
+										</div>
+										<div class="form__message _success">
+											<i class="_icon-check"></i>
+											Файл загружен
+										</div>
+									</div>
+								</li>
+								<li class="form__row">
+									<label for="pict2-4" class="form__label">Справка с «ФИС ГИБДД-М»* </label>
+									<div class="download-wrapper">
+										<div class="input-wrapper">
+											<input id="pict2-4" class="input-wrapper__text input" readonly value="Загрузить документ">
+											<div class="input-wrapper__btn file">
+												<div class="file__item">
+													<input accept=".webp, .webp, .webp" type="file" name="image" class="file__input">
+													<div class="file__button button button_green _icon-download"></div>
+												</div>
+											</div>
+										</div>
+										<div class="form__message _success">
+											<i class="_icon-check"></i>
+											Файл загружен
+										</div>
+									</div>
+								</li>
+								<li class="form__row">
+									<label for="pict2-5" class="form__label">Справки с банков-кредиторов о наличии задолженности* </label>
+									<div class="download-wrapper">
+										<div class="input-wrapper">
+											<input id="pict2-5" class="input-wrapper__text input" readonly value="Загрузить документ">
+											<div class="input-wrapper__btn file">
+												<div class="file__item">
+													<input accept=".webp, .webp, .webp" type="file" name="image" class="file__input">
+													<div class="file__button button button_green _icon-download"></div>
+												</div>
+											</div>
+										</div>
+										<div class="form__message _success">
+											<i class="_icon-check"></i>
+											Файл загружен
+										</div>
+									</div>
+								</li>
+								<li class="form__row">
+									<label for="pict2-6" class="form__label">Справка об отсутствии судимости (при запросе судьи)*</label>
+									<div class="download-wrapper _error">
+										<div class="input-wrapper">
+											<input id="pict2-6" class="input-wrapper__text input" readonly value="Загрузить документ">
+											<div class="input-wrapper__btn file">
+												<div class="file__item">
+													<input accept=".webp, .webp, .webp" type="file" name="image" class="file__input">
+													<div class="file__button button button_green _icon-download"></div>
+												</div>
+											</div>
+										</div>
+										<div class="form__message _error">
+											<i class="_icon-cross"></i>
+											Файл не загружен
+										</div>
+									</div>
+								</li>
+								<li class="form__row">
+									<label for="pict2-7" class="form__label">Выписка из&nbsp;лицевого счёта по&nbsp;вкладам в&nbsp;банке за&nbsp;3 (три) года (по&nbsp;открытым/закрытым счетам)</label>
+									<div class="download-wrapper _error">
+										<div class="input-wrapper">
+											<input id="pict2-7" class="input-wrapper__text input" readonly value="Загрузить документ">
+											<div class="input-wrapper__btn file">
+												<div class="file__item">
+													<input accept=".webp, .webp, .webp" type="file" name="image" class="file__input">
+													<div class="file__button button button_green _icon-download"></div>
+												</div>
+											</div>
+										</div>
+										<div class="form__message _error">
+											<i class="_icon-cross"></i>
+											Файл не загружен
+										</div>
+									</div>
+								</li>
+
+							</ol>
+						</div>
+					</form>
+				</div>
+			</section>
+		</main>
+		<footer class="footer">
+			<div class="footer__container">
+				<a href="/" class="footer__logo logo">
+
+					<img src="img/logo.svg" alt="Logo">
+					Сервис самостоятельного банкротства
+				</a>
+				<div class="footer-info">
+					<ul class="footer-info__menu">
+						<li><a href="">Анкеты</a></li>
+						<li><a href="">Документы</a></li>
+						<li><a href="">Календарь</a></li>
+						<li><a href="">Новости</a></li>
+						<li><a href="">Задать вопрос</a></li>
+					</ul>
+					<div class="footer-info__copy">
+						<a class="footer-info__text text text_small" href="">Политика конфиденциальности</a>
+						<div class="footer-info__text text text_small">© 2024 Название компании</div>
+					</div>
+				</div>
+			</div>
+		</footer>
+
+	</div>
+	<script src="js/app.min.js?_v=20240822201754"></script>
+</body>
+
+</html>

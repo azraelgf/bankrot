@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<title>Календарь</title>
+	<meta charset="UTF-8">
+	<meta name="format-detection" content="telephone=no">
+	<!-- <style>body{opacity: 0;}</style> -->
+	<link rel="stylesheet" href="css/style.min.css?_v=20240822201754">
+	<link rel="shortcut icon" href="favicon.ico">
+	<!-- <meta name="robots" content="noindex, nofollow"> -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+	<div class="wrapper">
+		<header class="header">
+			<div class="header__container">
+				<button type="button" class="menu__icon icon-menu"><span></span></button>
+				<a href="/" class="header__logo logo"><img src="img/logo.svg" alt="Logo"></a>
+				<div class="header__menu-block">
+					<div class="header__menu menu">
+						<nav class="menu__body">
+							<ul class="menu__list">
+								<li class="menu__item"><a href="#" class="menu__link">Главная</a></li>
+								<li class="menu__item"><a href="#" class="menu__link">Анкеты</a></li>
+								<li class="menu__item"><a href="#" class="menu__link">Документы</a></li>
+								<li class="menu__item"><a href="#" class="menu__link">Календарь</a></li>
+								<li class="menu__item"><a href="#" class="menu__link">Новости</a></li>
+								<li class="menu__item"><a href="#" class="menu__link">Задать вопрос</a></li>
+							</ul>
+						</nav>
+					</div>
+					<div class="header__search" data-da=".menu__list, 991.98">
+						<button class="search-btn _icon-search" type="button"></button>
+					</div>
+					<div class="header__user  user-header">
+						<div class="user-header__icon">АА</div>
+						<div class="user-header__arrow _icon-dropdown"></div>
+						<div class="user-header__submenu submenu-user">
+							<div class="submenu-user__title title title_h4">Александров Александр</div>
+							<ul class="submenu-user__list list-user">
+								<li class="list-user__item">
+									<a class="list-user__link" href="">Личные данные</a>
+								</li>
+								<li class="list-user__item">
+									<a class="list-user__link _icon-logout link-action" href="">Выйти</a>
+								</li>
+							</ul>
+						</div>
+
+					</div>
+					<div class="header__search-wrapper" data-da=".menu__list, 991.98">
+						<form action="#">
+							<div class="input-wrapper">
+								<input class="input-wrapper__input input" autocomplete="off" type="text" name="form[]" data-error="Ошибка" placeholder="">
+								<button class="input-wrapper__btn link-action _icon-search" type="submit"></button>
+							</div>
+						</form>
+					</div>
+				</div>
+			</div>
+		</header>
+
+		<main class="page">
+			<section class="hero-inner">
+				<div class="hero-inner__container">
+					<nav class="hero-inner__breadcrumbs breadcrumbs">
+						<ul class="breadcrumbs__list">
+							<li class="breadcrumbs__item"><a href="" class="breadcrumbs__link">Главная</a></li>
+							<li class="breadcrumbs__item"><span class="breadcrumbs__current">Календарь</span></li>
+						</ul>
+					</nav>
+					<h1 class="title title_h1">Календарь</h1>
+				</div>
+			</section>
+			<section class="schedule-main section-padding">
+				<div class="schedule-main__container">
+					<form action="#" class="form">
+						<div class="form__row">
+							<label for="schedule-1" class="form__label">Дата оплаты депозита</label>
+							<div class="input-wrapper">
+								<input id="schedule-1" data-datepicker placeholder="дд/мм/гг" type="text" name="date-1" class="input">
+								<div class="input-wrapper__btn">
+									<button class="button button_green _icon-download"></button>
+								</div>
+							</div>
+
+
+						</div>
+						<div class="form__row">
+							<label for="schedule-2" class="form__label">Дата отправки в суд</label>
+
+							<div class="input-wrapper">
+								<input id="schedule-2" data-datepicker placeholder="дд/мм/гг" type="text" name="date-1" class="input">
+								<div class="input-wrapper__btn">
+									<button class="button button_green _icon-download"></button>
+								</div>
+							</div>
+						</div>
+						<div class="form__row">
+							<label for="schedule-3" class="form__label">Дата признания банкротом</label>
+
+							<div class="input-wrapper">
+								<input id="schedule-3" data-datepicker placeholder="дд/мм/гг" type="text" name="date-1" class="input">
+								<div class="input-wrapper__btn">
+									<button class="button button_green _icon-download"></button>
+								</div>
+							</div>
+						</div>
+						<div class="form__row">
+							<label for="schedule-4" class="form__label">Дата заседания</label>
+
+							<div class="input-wrapper">
+								<input id="schedule-4" data-datepicker placeholder="дд/мм/гг" type="text" name="date-1" class="input">
+								<div class="input-wrapper__btn">
+									<button class="button button_green _icon-download"></button>
+								</div>
+							</div>
+						</div>
+						<div class="form__row">
+							<label for="schedule-5" class="form__label">Дата завершения</label>
+
+							<div class="input-wrapper">
+								<input id="schedule-5" data-datepicker placeholder="дд/мм/гг" type="text" name="date-1" class="input">
+								<div class="input-wrapper__btn">
+									<button class="button button_green _icon-download"></button>
+								</div>
+							</div>
+						</div>
+					</form>
+				</div>
+			</section>
+		</main>
+		<footer class="footer">
+			<div class="footer__container">
+				<a href="/" class="footer__logo logo">
+
+					<img src="img/logo.svg" alt="Logo">
+					Сервис самостоятельного банкротства
+				</a>
+				<div class="footer-info">
+					<ul class="footer-info__menu">
+						<li><a href="">Анкеты</a></li>
+						<li><a href="">Документы</a></li>
+						<li><a href="">Календарь</a></li>
+						<li><a href="">Новости</a></li>
+						<li><a href="">Задать вопрос</a></li>
+					</ul>
+					<div class="footer-info__copy">
+						<a class="footer-info__text text text_small" href="">Политика конфиденциальности</a>
+						<div class="footer-info__text text text_small">© 2024 Название компании</div>
+					</div>
+				</div>
+			</div>
+		</footer>
+
+	</div>
+	<script src="js/app.min.js?_v=20240822201754"></script>
+</body>
+
+</html>

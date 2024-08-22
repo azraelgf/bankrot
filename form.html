@@ -1,0 +1,981 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<title>Анкета-приложение к заявлению на банкротство</title>
+	<meta charset="UTF-8">
+	<meta name="format-detection" content="telephone=no">
+	<!-- <style>body{opacity: 0;}</style> -->
+	<link rel="stylesheet" href="css/style.min.css?_v=20240822201754">
+	<link rel="shortcut icon" href="favicon.ico">
+	<!-- <meta name="robots" content="noindex, nofollow"> -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+	<div class="wrapper">
+		<header class="header">
+			<div class="header__container">
+				<button type="button" class="menu__icon icon-menu"><span></span></button>
+				<a href="/" class="header__logo logo"><img src="img/logo.svg" alt="Logo"></a>
+				<div class="header__menu-block">
+					<div class="header__menu menu">
+						<nav class="menu__body">
+							<ul class="menu__list">
+								<li class="menu__item"><a href="#" class="menu__link">Главная</a></li>
+								<li class="menu__item"><a href="#" class="menu__link">Анкеты</a></li>
+								<li class="menu__item"><a href="#" class="menu__link">Документы</a></li>
+								<li class="menu__item"><a href="#" class="menu__link">Календарь</a></li>
+								<li class="menu__item"><a href="#" class="menu__link">Новости</a></li>
+								<li class="menu__item"><a href="#" class="menu__link">Задать вопрос</a></li>
+							</ul>
+						</nav>
+					</div>
+					<div class="header__search" data-da=".menu__list, 991.98">
+						<button class="search-btn _icon-search" type="button"></button>
+					</div>
+					<div class="header__user  user-header">
+						<div class="user-header__icon">АА</div>
+						<div class="user-header__arrow _icon-dropdown"></div>
+						<div class="user-header__submenu submenu-user">
+							<div class="submenu-user__title title title_h4">Александров Александр</div>
+							<ul class="submenu-user__list list-user">
+								<li class="list-user__item">
+									<a class="list-user__link" href="">Личные данные</a>
+								</li>
+								<li class="list-user__item">
+									<a class="list-user__link _icon-logout link-action" href="">Выйти</a>
+								</li>
+							</ul>
+						</div>
+
+					</div>
+					<div class="header__search-wrapper" data-da=".menu__list, 991.98">
+						<form action="#">
+							<div class="input-wrapper">
+								<input class="input-wrapper__input input" autocomplete="off" type="text" name="form[]" data-error="Ошибка" placeholder="">
+								<button class="input-wrapper__btn link-action _icon-search" type="submit"></button>
+							</div>
+						</form>
+					</div>
+				</div>
+			</div>
+		</header>
+
+		<main class="page">
+			<section class="hero-inner">
+				<div class="hero-inner__container">
+					<nav class="hero-inner__breadcrumbs breadcrumbs">
+						<ul class="breadcrumbs__list">
+							<li class="breadcrumbs__item"><a href="" class="breadcrumbs__link">Главная</a></li>
+							<li class="breadcrumbs__item"><a href="" class="breadcrumbs__link">Анкеты</a></li>
+							<li class="breadcrumbs__item"><span class="breadcrumbs__current">Анкета-приложение к&nbsp;заявлению на&nbsp;банкротство</span>
+							</li>
+						</ul>
+					</nav>
+					<h1 class="title title_h1">Анкета-приложение <br> к&nbsp;заявлению на&nbsp;банкротство</h1>
+				</div>
+			</section>
+			<section class="bankruptcy-form section-padding">
+				<div class="bankruptcy-form__container">
+					<form action="#" class="form">
+
+						<div class="form__item">
+							<div class="form__header">
+								<h2 class="title title_h2">Персональные данные</h2>
+								<small>шаг 1</small>
+							</div>
+							<div class="form__body">
+								<div class="form__row">
+									<label for="surname" class="form__label">Фамилия*</label>
+									<div class="input-wrapper">
+										<input type="text" id="surname" class="input-wrapper__input input" placeholder="Например: Иванов">
+									</div>
+								</div>
+								<div class="form__row">
+									<label for="name" class="form__label">Имя*</label>
+									<div class="input-wrapper">
+										<input type="text" id="name" class="input-wrapper__input input" placeholder="Например: Иван">
+									</div>
+								</div>
+								<div class="form__row">
+									<label for="post-name" class="form__label">Отчество</label>
+									<div class="input-wrapper">
+										<input type="text" id="post-name" class="input-wrapper__input input" placeholder="Например: Иванович">
+									</div>
+								</div>
+								<div class="form__row">
+									<label for="phone" class="form__label">Номер телефона*</label>
+									<div class="input-wrapper">
+										<input type="text" id="phone" class="input-wrapper__input input" placeholder="+7 (999) 999 99 99">
+									</div>
+								</div>
+								<div class="form__row">
+									<label for="birthday" class="form__label">Дата рождения*</label>
+									<div class="input-wrapper">
+										<input type="text" id="birthday" class="input-wrapper__input input" placeholder="дд/мм/гг">
+									</div>
+								</div>
+								<div class="form__row">
+									<label for="passport" class="form__label">Серия и номер паспорта*</label>
+									<div class="input-wrapper">
+										<input type="text" id="passport" class="input-wrapper__input input" placeholder="4500 000000">
+									</div>
+								</div>
+								<div class="form__row">
+									<label for="passport-organization" class="form__label">Кем выдан паспорт*</label>
+									<div class="input-wrapper">
+										<input type="text" id="passport-organization" class="input-wrapper__input input" placeholder="">
+									</div>
+								</div>
+								<div class="form__row">
+									<label for="passport-code" class="form__label">Код подразделения из паспорта*</label>
+									<div class="input-wrapper">
+										<input type="text" id="passport-code" class="input-wrapper__input input" placeholder="301-000">
+									</div>
+								</div>
+								<div class="form__row">
+									<label for="passport-date" class="form__label">Дата выдачи паспорта*</label>
+									<div class="input-wrapper">
+										<input type="text" id="passport-date" class="input-wrapper__input input" placeholder="дд/мм/гг">
+									</div>
+								</div>
+								<div class="form__row">
+									<label for="passport-address" class="form__label">Адрес регистрации*</label>
+									<div class="input-wrapper">
+										<input type="text" id="passport-address" class="input-wrapper__input input" placeholder="">
+									</div>
+								</div>
+								<div class="form__row">
+									<label for="passport-question" class="form__label">Осуществлялась ли замена паспорта в
+										период наличия задолженностей? Когда?</label>
+									<div class="input-wrapper">
+										<input type="text" id="passport-question" class="input-wrapper__input input" placeholder="">
+									</div>
+								</div>
+								<div class="form__row">
+									<label for="snils" class="form__label">СНИЛС*</label>
+									<div class="input-wrapper">
+										<input type="text" id="snils" class="input-wrapper__input input" placeholder="123 456 89">
+									</div>
+								</div>
+								<div class="form__row">
+									<label for="inn" class="form__label">ИНН*</label>
+									<div class="input-wrapper">
+										<input type="text" id="inn" class="input-wrapper__input input" placeholder="300000000000000001">
+									</div>
+								</div>
+								<div class="form__row">
+									<label for="address-temporary" class="form__label">Адрес временной регистрации (при
+										наличии). Что связывает Вас с&nbsp;данным адресом? Например, работа, съемное жилье,
+										семейные обстоятельства иные причины</label>
+									<div class="input-wrapper">
+										<input type="text" id="address-temporary" class="input-wrapper__input input" placeholder="">
+									</div>
+								</div>
+							</div>
+						</div>
+
+						<div class="form__item">
+							<div class="form__header">
+								<h2 class="title title_h2">Состояние по&nbsp;займам</h2>
+								<small>шаг 2</small>
+							</div>
+							<div class="form__body">
+								<div class="form__row">
+									<label for="step2-q1" class="form__label">Являетесь ли Вы участником ипотечного займа?
+										*</label>
+									<div class="input-wrapper">
+										<input type="text" id="step2-q1" class="input-wrapper__input input" placeholder="">
+									</div>
+								</div>
+
+								<div class="form__row _option">
+									<label class="form__label">Проходили ли Вы процедуру банкротства в
+										течение последних 5 лет?</label>
+									<div class="options">
+										<div class="options__item">
+											<input id="o1_1" class="options__input" checked type="radio" value="Да" name="step2-q2">
+											<label for="o1_1" class="options__label">
+												<span class="options__text">Да</span>
+											</label>
+										</div>
+										<div class="options__item">
+											<input id="o1_2" class="options__input" type="radio" value="Нет" name="step2-q2">
+											<label for="o1_2" class="options__label">
+												<span class="options__text">Нет</span>
+											</label>
+										</div>
+									</div>
+								</div>
+
+								<div class="form__row _option">
+									<label class="form__label">Являетесь ли Вы участником ипотечного займа? *</label>
+									<div class="options">
+										<div class="options__item">
+											<input id="o2_1" class="options__input" checked type="radio" value="Заемщик" name="step2-q3">
+											<label for="o2_1" class="options__label">
+												<span class="options__text">Заемщик </span>
+											</label>
+										</div>
+										<div class="options__item">
+											<input id="o2_2" class="options__input" type="radio" value="Созаемщик" name="step2-q3">
+											<label for="o2_2" class="options__label">
+												<span class="options__text">Созаемщик</span>
+											</label>
+										</div>
+										<div class="options__item">
+											<input id="o2_3" class="options__input" type="radio" value="Поручитель" name="step2-q3">
+											<label for="o2_3" class="options__label">
+												<span class="options__text">Поручитель</span>
+											</label>
+										</div>
+										<div class="options__item">
+											<input id="o2_4" class="options__input" type="radio" value="Нет" name="step2-q3">
+											<label for="o2_4" class="options__label">
+												<span class="options__text">Нет</span>
+											</label>
+										</div>
+									</div>
+								</div>
+
+								<div class="form__row _option">
+									<label class="form__label">Являетесь ли Вы созаемщиком (поручителем) по кредитному
+										обязательству какого-либо лица или является ли какое-либо лицо созаемщиком
+										(поручителем) по Вашему кредитному обязательству ?</label>
+									<div class="options">
+										<div class="options__item">
+											<input id="o3_1" class="options__input" checked type="radio" value="Да" name="step2-q4">
+											<label for="o3_1" class="options__label">
+												<span class="options__text">Да</span>
+											</label>
+										</div>
+										<div class="options__item">
+											<input id="o3_2" class="options__input" type="radio" value="Нет" name="step2-q4">
+											<label for="o3_2" class="options__label">
+												<span class="options__text">Нет</span>
+											</label>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+
+						<div class="form__item">
+							<div class="form__header">
+								<h2 class="title title_h2">Семейное положение и&nbsp;соц.&nbsp;обязательства</h2>
+								<small>шаг 3</small>
+							</div>
+							<div class="form__body">
+								<div class="form__row _option">
+									<label class="form__label">Проходили ли Вы процедуру банкротства в
+										течение последних 5 лет?</label>
+									<div class="options">
+										<div class="options__item">
+											<input id="s1_1" class="options__input" checked type="radio" value="Состою в браке " name="step3-q1">
+											<label for="s1_1" class="options__label">
+												<span class="options__text">Состою в браке </span>
+											</label>
+										</div>
+										<div class="options__item">
+											<input id="s1_2" class="options__input" type="radio" value="Разведен менее 3х лет назад" name="step3-q1">
+											<label for="s1_2" class="options__label">
+												<span class="options__text">Разведен менее 3х лет назад</span>
+											</label>
+										</div>
+										<div class="options__item">
+											<input id="s1_3" class="options__input" type="radio" value="Состою в браке и был разведен" name="step3-q1">
+											<label for="s1_3" class="options__label">
+												<span class="options__text">Состою в браке и был разведен</span>
+											</label>
+										</div>
+										<div class="options__item">
+											<input id="s1_4" class="options__input" type="radio" value="Холост" name="step3-q1">
+											<label for="s1_4" class="options__label">
+												<span class="options__text">Холост</span>
+											</label>
+										</div>
+									</div>
+								</div>
+
+								<div class="form__row">
+									<label for="step3-q2" class="form__label">Дата заключения брака</label>
+									<div class="input-wrapper">
+										<input type="text" id="step3-q2" class="input-wrapper__input input" placeholder="дд/мм/гг">
+									</div>
+								</div>
+
+								<div class="form__row _option">
+									<label class="form__label">Имеются ли у Вас действующие брачные договоры ? *</label>
+									<div class="options">
+										<div class="options__item">
+											<input id="s2_1" class="options__input" checked type="radio" value="Да" name="step3-q3">
+											<label for="s2_1" class="options__label">
+												<span class="options__text">Да </span>
+											</label>
+										</div>
+										<div class="options__item">
+											<input id="s2_2" class="options__input" type="radio" value="Нет" name="step3-q3">
+											<label for="s2_2" class="options__label">
+												<span class="options__text">Нет</span>
+											</label>
+										</div>
+									</div>
+								</div>
+
+								<div class="form__row _option">
+									<label class="form__label">Имеются ли у вас соглашения или судебные акты о разделе
+										общего имущества супругов?</label>
+									<div class="options">
+										<div class="options__item">
+											<input id="s3_1" class="options__input" checked type="radio" value="Да" name="step3-q4">
+											<label for="s3_1" class="options__label">
+												<span class="options__text">Да </span>
+											</label>
+										</div>
+										<div class="options__item">
+											<input id="s3_2" class="options__input" type="radio" value="Нет" name="step3-q4">
+											<label for="s3_2" class="options__label">
+												<span class="options__text">Нет</span>
+											</label>
+										</div>
+									</div>
+								</div>
+
+
+								<div class="form__row">
+									<label for="step4-q5" class="form__label">Имеются ли у Вас совершеннолетние дети,
+										которые обучаются на очной форме обучения и иные иждивенцы (инвалиды,
+										пенсионеры)?</label>
+									<div class="input-wrapper">
+										<input type="text" id="step4-q5" class="input-wrapper__input input" placeholder="дд/мм/гг">
+									</div>
+								</div>
+
+								<div class="form__row _option">
+									<label class="form__label">Имеются ли у Вас действующие алиментные соглашения?</label>
+									<div class="options">
+										<div class="options__item">
+											<input id="s5_1" class="options__input" checked type="radio" value="Да" name="step3-q6">
+											<label for="s5_1" class="options__label">
+												<span class="options__text">Да </span>
+											</label>
+										</div>
+										<div class="options__item">
+											<input id="s5_2" class="options__input" type="radio" value="Нет" name="step3-q6">
+											<label for="s5_2" class="options__label">
+												<span class="options__text">Нет</span>
+											</label>
+										</div>
+									</div>
+								</div>
+
+								<div class="form__row _option">
+									<label class="form__label">Устроены ли вы официально? *</label>
+									<div class="options">
+										<div class="options__item">
+											<input id="s6_1" class="options__input" checked type="radio" value="Официально устроен" name="step3-q7">
+											<label for="s6_1" class="options__label">
+												<span class="options__text">Официально устроен</span>
+											</label>
+										</div>
+										<div class="options__item">
+											<input id="s6_2" class="options__input" type="radio" value="Безработный, никогда не работал" name="step3-q7">
+											<label for="s6_2" class="options__label">
+												<span class="options__text">Безработный, никогда не работал</span>
+											</label>
+										</div>
+										<div class="options__item">
+											<input id="s6_3" class="options__input" type="radio" value="Работающий Пенсионер, либо выход на пенсию был менее 3х лет назад" name="step3-q7">
+											<label for="s6_3" class="options__label">
+												<span class="options__text">Работающий Пенсионер, либо выход на пенсию был менее 3х лет назад</span>
+											</label>
+										</div>
+										<div class="options__item">
+											<input id="s6_4" class="options__input" type="radio" value="Пенсионер более 3х лет" name="step3-q7">
+											<label for="s6_4" class="options__label">
+												<span class="options__text">Пенсионер более 3х лет</span>
+											</label>
+										</div>
+										<div class="options__item">
+											<input id="s6_5" class="options__input" type="radio" value="Военный/Бывший военный" name="step3-q7">
+											<label for="s6_5" class="options__label">
+												<span class="options__text">Военный/Бывший военный</span>
+											</label>
+										</div>
+										<div class="options__item">
+											<input id="s6_6" class="options__input" type="radio" value="Безработный, но ранее работал" name="step3-q7">
+											<label for="s6_6" class="options__label">
+												<span class="options__text">Безработный, но ранее работал</span>
+											</label>
+										</div>
+									</div>
+								</div>
+
+								<div class="form__row _option">
+									<label class="form__label">Инвалидность</label>
+									<div class="options">
+										<div class="options__item">
+											<input id="s8_1" class="options__input" type="checkbox" value="Да" name="step3-q8">
+											<label for="s8_1" class="options__label">
+												<span class="options__text">Да</span>
+											</label>
+										</div>
+									</div>
+								</div>
+
+								<div class="form__row _option">
+									<label class="form__label">Имеется ли у Вас статус «Индивидуального предпринимателя»?
+										*</label>
+									<div class="options">
+										<div class="options__item">
+											<input id="s9_1" class="options__input" checked type="radio" value="У меня действующий ИП" name="step3-q9">
+											<label for="s9_1" class="options__label">
+												<span class="options__text">У меня действующий ИП</span>
+											</label>
+										</div>
+										<div class="options__item">
+											<input id="s9_2" class="options__input" type="radio" value="Статус ИП был прекращен в течении последних 3-х лет" name="step3-q9">
+											<label for="s9_2" class="options__label">
+												<span class="options__text">Статус ИП был прекращен в течении последних 3-х лет</span>
+											</label>
+										</div>
+										<div class="options__item">
+											<input id="s9_3" class="options__input" type="radio" value="Статус ИП был прекращен более 3-х лет назад" name="step3-q9">
+											<label for="s9_3" class="options__label">
+												<span class="options__text">Статус ИП был прекращен более 3-х лет назад</span>
+											</label>
+										</div>
+										<div class="options__item">
+											<input id="s9_4" class="options__input" type="radio" value="Никогда не имел статуса ИП" name="step3-q9">
+											<label for="s9_4" class="options__label">
+												<span class="options__text">Никогда не имел статуса ИП</span>
+											</label>
+										</div>
+									</div>
+								</div>
+
+								<div class="form__row _option">
+									<label class="form__label">Наличие у Вас статуса «самозанятый» ?</label>
+									<div class="options">
+										<div class="options__item">
+											<input id="s10_1" class="options__input" checked type="radio" value="В настоящий момент официально являюсь «самозанятым»" name="step3-q10">
+											<label for="s10_1" class="options__label">
+												<span class="options__text">В настоящий момент официально являюсь «самозанятым»</span>
+											</label>
+										</div>
+										<div class="options__item">
+											<input id="s10_2" class="options__input" type="radio" value="Статус «самозанятого» был прекращен в течении последних 3-х лет" name="step3-q10">
+											<label for="s10_2" class="options__label">
+												<span class="options__text">Статус «самозанятого» был прекращен в течении последних 3-х лет</span>
+											</label>
+										</div>
+										<div class="options__item">
+											<input id="s10_3" class="options__input" type="radio" value="Статус «самозанятого» был прекращен более 3-х лет назад" name="step3-q10">
+											<label for="s10_3" class="options__label">
+												<span class="options__text">Статус «самозанятого» был прекращен более 3-х лет назад</span>
+											</label>
+										</div>
+										<div class="options__item">
+											<input id="s10_4" class="options__input" type="radio" value="Никогда не имел статуса «самозанятый»" name="step3-q10">
+											<label for="s10_4" class="options__label">
+												<span class="options__text">Никогда не имел статуса «самозанятый»</span>
+											</label>
+										</div>
+									</div>
+								</div>
+
+
+								<div class="form__row">
+									<label for="step3-q11" class="form__label">Как получаете зарплату?</label>
+									<div class="input-wrapper">
+										<input type="text" id="step3-q11" class="input-wrapper__input input" placeholder="">
+									</div>
+								</div>
+
+								<div class="form__row">
+									<label for="step3-q12" class="form__label">Укажите размер и источники своего дохода
+										*</label>
+									<div class="input-wrapper">
+										<input type="text" id="step3-q12" class="input-wrapper__input input" placeholder="">
+									</div>
+								</div>
+
+								<div class="form__row _option">
+									<label class="form__label">Есть соц выплаты?</label>
+									<div class="options">
+										<div class="options__item">
+											<input id="s13_1" class="options__input" checked type="radio" value="Да" name="step3-q13">
+											<label for="s13_1" class="options__label">
+												<span class="options__text">Да </span>
+											</label>
+										</div>
+										<div class="options__item">
+											<input id="s13_2" class="options__input" type="radio" value="Нет" name="step3-q13">
+											<label for="s13_2" class="options__label">
+												<span class="options__text">Нет</span>
+											</label>
+										</div>
+									</div>
+								</div>
+
+							</div>
+						</div>
+
+						<div class="form__item">
+							<div class="form__header">
+								<h2 class="title title_h2">Кредиторные обязательства</h2>
+								<small>шаг 4</small>
+							</div>
+							<div class="form__body">
+								<div class="form__row">
+									<label for="step4-q1" class="form__label">Перечислите все обязательства перед Кредитными
+										организациями (Банки/МФО)- Кредитор (название банка/МФО)– сумма долга</label>
+									<div class="input-wrapper">
+										<input type="text" id="step4-q1" class="input-wrapper__input input" placeholder="">
+									</div>
+								</div>
+								<div class="form__row">
+									<label for="step4-q2" class="form__label">Общая сумма ежемесячных платежей по всем
+										кредитным обязательствам</label>
+									<div class="input-wrapper">
+										<input type="text" id="step4-q2" class="input-wrapper__input input" placeholder="">
+									</div>
+								</div>
+								<div class="form__row">
+									<label for="step4-q3" class="form__label">Имеются ли у Вас кредитные обязательства, по
+										которым совершено менее 3-х полных платежей согласно графику платежей</label>
+									<div class="input-wrapper">
+										<input type="text" id="step4-q3" class="input-wrapper__input input" placeholder="">
+									</div>
+								</div>
+
+								<div class="form__row">
+									<label for="step4-q4" class="form__label">Перечислите все иные обязательства
+										(Налоги/Коммунальные услуги/ Физические и Юридические лица/ Иное)</label>
+									<div class="input-wrapper">
+										<input type="text" id="step4-q4" class="input-wrapper__input input" placeholder="">
+									</div>
+								</div>
+
+								<div class="form__row _option">
+									<label class="form__label">Имеются ли у Вас обязательства по&nbsp;алиментам?</label>
+									<div class="options">
+										<div class="options__item">
+											<input id="k5_1" class="options__input" checked type="radio" value="Да" name="step4-q5">
+											<label for="k5_1" class="options__label">
+												<span class="options__text">Да </span>
+											</label>
+										</div>
+										<div class="options__item">
+											<input id="k5_2" class="options__input" type="radio" value="Нет" name="step4-q5">
+											<label for="k5_2" class="options__label">
+												<span class="options__text">Нет</span>
+											</label>
+										</div>
+									</div>
+								</div>
+
+								<div class="form__row _option">
+									<label class="form__label">Имеются ли у Вас обязательства, связанные с&nbsp;причинением
+										вреда здоровью</label>
+									<div class="options">
+										<div class="options__item">
+											<input id="k6_1" class="options__input" checked type="radio" value="Да" name="step4-q6">
+											<label for="k6_1" class="options__label">
+												<span class="options__text">Да </span>
+											</label>
+										</div>
+										<div class="options__item">
+											<input id="k6_2" class="options__input" type="radio" value="Нет" name="step4-q6">
+											<label for="k6_2" class="options__label">
+												<span class="options__text">Нет</span>
+											</label>
+										</div>
+									</div>
+								</div>
+
+								<div class="form__row _option">
+									<label class="form__label">Имеются ли у Вас обязательства, связанные с&nbsp;причинением
+										морального вреда?</label>
+									<div class="options">
+										<div class="options__item">
+											<input id="k7_1" class="options__input" checked type="radio" value="Да" name="step4-q7">
+											<label for="k7_1" class="options__label">
+												<span class="options__text">Да </span>
+											</label>
+										</div>
+										<div class="options__item">
+											<input id="k7_2" class="options__input" type="radio" value="Нет" name="step4-q7">
+											<label for="k7_2" class="options__label">
+												<span class="options__text">Нет</span>
+											</label>
+										</div>
+									</div>
+								</div>
+
+								<div class="form__row _option">
+									<label class="form__label">Имеются ли у Вас обязательства, связанные с умышленным или по
+										грубой неосторожности причинением вреда имуществу</label>
+									<div class="options">
+										<div class="options__item">
+											<input id="k8_1" class="options__input" checked type="radio" value="Да" name="step4-q8">
+											<label for="k8_1" class="options__label">
+												<span class="options__text">Да </span>
+											</label>
+										</div>
+										<div class="options__item">
+											<input id="k8_2" class="options__input" type="radio" value="Нет" name="step4-q8">
+											<label for="k8_2" class="options__label">
+												<span class="options__text">Нет</span>
+											</label>
+										</div>
+									</div>
+								</div>
+
+								<div class="form__row _option">
+									<label class="form__label">Имеются ли у Вас обязательства, связанные с субсидиарной
+										ответственностью</label>
+									<div class="options">
+										<div class="options__item">
+											<input id="k9_1" class="options__input" checked type="radio" value="Да" name="step4-q9">
+											<label for="k9_1" class="options__label">
+												<span class="options__text">Да </span>
+											</label>
+										</div>
+										<div class="options__item">
+											<input id="k9_2" class="options__input" type="radio" value="Нет" name="step4-q9">
+											<label for="k9_2" class="options__label">
+												<span class="options__text">Нет</span>
+											</label>
+										</div>
+									</div>
+								</div>
+
+								<div class="form__row _option">
+									<label class="form__label">Есть ли у вас НЕДВИЖИМОЕ ИМУЩЕСТВО, которым Вы владеете в РФ
+										или за границей</label>
+									<div class="options">
+										<div class="options__item">
+											<input id="k10_1" class="options__input" checked type="radio" value="Квартиры" name="step4-q10">
+											<label for="k10_1" class="options__label">
+												<span class="options__text">Квартиры</span>
+											</label>
+										</div>
+										<div class="options__item">
+											<input id="k10_2" class="options__input" type="radio" value="Дома " name="step4-q10">
+											<label for="k10_2" class="options__label">
+												<span class="options__text">Дома </span>
+											</label>
+										</div>
+										<div class="options__item">
+											<input id="k10_3" class="options__input" type="radio" value="Участки" name="step4-q10">
+											<label for="k10_3" class="options__label">
+												<span class="options__text">Участки</span>
+											</label>
+										</div>
+										<div class="options__item">
+											<input id="k10_4" class="options__input" type="radio" value="Подсобные помещения" name="step4-q10">
+											<label for="k10_4" class="options__label">
+												<span class="options__text">Подсобные помещения</span>
+											</label>
+										</div>
+										<div class="options__item">
+											<input id="k10_5" class="options__input" type="radio" value="Нет" name="step4-q10">
+											<label for="k10_5" class="options__label">
+												<span class="options__text">Нет</span>
+											</label>
+										</div>
+									</div>
+								</div>
+
+								<div class="form__row">
+									<label for="step4-q11" class="form__label">Укажите примерную стоимость квартир(ы), дату
+										приобретения, размер вашей доли в указанном имуществе, а также точный адрес,
+										кадастровый номер(при наличии)</label>
+									<div class="input-wrapper">
+										<input type="text" id="step4-q11" class="input-wrapper__input input" placeholder="">
+									</div>
+								</div>
+
+								<div class="form__row">
+									<label class="form__label">Перечислите ДВИЖИМОЕ ИМУЩЕСТВО и транспорт, которым ВЫ
+										владеете в РФ или за границей ?</label>
+									<div class="options">
+										<div class="options__item">
+											<input id="k12_1" class="options__input" checked type="radio" value="Самолеты" name="step4-q12">
+											<label for="k12_1" class="options__label">
+												<span class="options__text">Самолеты</span>
+											</label>
+										</div>
+										<div class="options__item">
+											<input id="k12_2" class="options__input" type="radio" value="Яхты" name="step4-q12">
+											<label for="k12_2" class="options__label">
+												<span class="options__text">Яхты</span>
+											</label>
+										</div>
+										<div class="options__item">
+											<input id="k12_3" class="options__input" type="radio" value="Лодки/моторы" name="step4-q12">
+											<label for="k12_3" class="options__label">
+												<span class="options__text">Лодки/моторы</span>
+											</label>
+										</div>
+										<div class="options__item">
+											<input id="k12_4" class="options__input" type="radio" value="Оружие" name="step4-q12">
+											<label for="k12_4" class="options__label">
+												<span class="options__text">Оружие</span>
+											</label>
+										</div>
+										<div class="options__item">
+											<input id="k12_5" class="options__input" type="radio" value="Нет" name="step4-q12">
+											<label for="k12_5" class="options__label">
+												<span class="options__text">Нет</span>
+											</label>
+										</div>
+									</div>
+								</div>
+
+								<div class="form__row">
+									<label for="step4-q13" class="form__label">Укажите примерную стоимость имущества, дату
+										выпуска, VIN номер и дату приобретения</label>
+									<div class="input-wrapper">
+										<input type="text" id="step4-q13" class="input-wrapper__input input" placeholder="">
+									</div>
+								</div>
+
+								<div class="form__row _option">
+									<label class="form__label">Находится ли какое-либо из вышеперечисленного имущества в
+										залоге?</label>
+									<div class="options">
+										<div class="options__item">
+											<input id="k14_1" class="options__input" checked type="radio" value="Да" name="step4-q14">
+											<label for="k14_1" class="options__label">
+												<span class="options__text">Да </span>
+											</label>
+										</div>
+										<div class="options__item">
+											<input id="k14_2" class="options__input" type="radio" value="Нет" name="step4-q14">
+											<label for="k14_2" class="options__label">
+												<span class="options__text">Нет</span>
+											</label>
+										</div>
+									</div>
+								</div>
+
+								<div class="form__row _option">
+									<label class="form__label">Были ли у вас Сделки по отчуждению ДВИЖИМОГО И НЕДВИЖИМОГО
+										ИМУЩЕСТВА, которые были ВАМИ совершены в течении 3-х последних лет ?</label>
+									<div class="options">
+										<div class="options__item">
+											<input id="k15_1" class="options__input" checked type="radio" value="Да" name="step4-q15">
+											<label for="k15_1" class="options__label">
+												<span class="options__text">Да </span>
+											</label>
+										</div>
+										<div class="options__item">
+											<input id="k15_2" class="options__input" type="radio" value="Нет" name="step4-q15">
+											<label for="k15_2" class="options__label">
+												<span class="options__text">Нет</span>
+											</label>
+										</div>
+									</div>
+								</div>
+
+								<div class="form__row _option">
+									<label class="form__label">Вступаете ли ВЫ в наследство в настоящий момент времени?
+										Собираетесь ли вы вступать в наследство в ближайшем времени?</label>
+									<div class="options">
+										<div class="options__item">
+											<input id="k16_1" class="options__input" checked type="radio" value="Да" name="step4-q16">
+											<label for="k16_1" class="options__label">
+												<span class="options__text">Да </span>
+											</label>
+										</div>
+										<div class="options__item">
+											<input id="k16_2" class="options__input" type="radio" value="Нет" name="step4-q16">
+											<label for="k16_2" class="options__label">
+												<span class="options__text">Нет</span>
+											</label>
+										</div>
+									</div>
+								</div>
+
+								<div class="form__row _option">
+									<label class="form__label">Есть ли ЦЕННЫЕ БУМАГИ, которыми ВЫ владеете в РФ или за
+										границей ?</label>
+									<div class="options">
+										<div class="options__item">
+											<input id="k17_1" class="options__input" checked type="radio" value="Да" name="step4-q17">
+											<label for="k17_1" class="options__label">
+												<span class="options__text">Да </span>
+											</label>
+										</div>
+										<div class="options__item">
+											<input id="k17_2" class="options__input" type="radio" value="Нет" name="step4-q17">
+											<label for="k17_2" class="options__label">
+												<span class="options__text">Нет</span>
+											</label>
+										</div>
+									</div>
+								</div>
+
+
+								<div class="form__row">
+									<label for="step4-q18" class="form__label">Укажите Вид ценной
+										бумаги(Акции/Облигации/Вексель/иное), Наименование Эмитента ценной бумаги, примерную
+										стоимость, дату приобретения</label>
+									<div class="input-wrapper">
+										<input type="text" id="step4-q18" class="input-wrapper__input input" placeholder="">
+									</div>
+								</div>
+
+								<div class="form__row _option">
+									<label class="form__label">Были ли у вас Сделки по отчуждению ЦЕННЫХ БУМАГ
+										(Акции/Облигации/Вексель/иное), которые были ВАМИ совершены в течении 3-х последних
+										лет ?</label>
+									<div class="options">
+										<div class="options__item">
+											<input id="k19_1" class="options__input" checked type="radio" value="Да" name="step4-q19">
+											<label for="k19_1" class="options__label">
+												<span class="options__text">Да </span>
+											</label>
+										</div>
+										<div class="options__item">
+											<input id="k19_2" class="options__input" type="radio" value="Нет" name="step4-q19">
+											<label for="k19_2" class="options__label">
+												<span class="options__text">Нет</span>
+											</label>
+										</div>
+									</div>
+								</div>
+
+							</div>
+						</div>
+
+						<div class="form__item">
+							<div class="form__header">
+								<h2 class="title title_h2">Прочие данные</h2>
+								<small>шаг 5</small>
+							</div>
+							<div class="form__body">
+								<div class="form__row">
+									<label for="step5-q1" class="form__label">Перечислите банковские организации, в которых
+										у Вас открыты действующие дебетовые счета/вклады/сберкнижка: (Наименование банка/тип
+										счета)</label>
+									<div class="input-wrapper">
+										<input type="text" id="step5-q1" class="input-wrapper__input input" placeholder="">
+									</div>
+								</div>
+
+
+								<div class="form__row _option">
+									<label class="form__label">Являетесь ли Вы или являлись в течение 3-х предыдущих лет
+										учредителем или участником юридического лица?</label>
+									<div class="options">
+										<div class="options__item">
+											<input id="p2_1" class="options__input" checked type="radio" value="Да" name="step5-q5">
+											<label for="p2_1" class="options__label">
+												<span class="options__text">Да </span>
+											</label>
+										</div>
+										<div class="options__item">
+											<input id="p2_2" class="options__input" type="radio" value="Нет" name="step5-q2">
+											<label for="p2_2" class="options__label">
+												<span class="options__text">Нет</span>
+											</label>
+										</div>
+									</div>
+								</div>
+
+								<div class="form__row _option">
+									<label class="form__label">Имеется ли у Вас погашенная/непогашенная судимость?</label>
+									<div class="options">
+										<div class="options__item">
+											<input id="p3_1" class="options__input" checked type="radio" value="Да" name="step5-q3">
+											<label for="p3_1" class="options__label">
+												<span class="options__text">Да </span>
+											</label>
+										</div>
+										<div class="options__item">
+											<input id="p3_2" class="options__input" type="radio" value="Нет" name="step5-q3">
+											<label for="p3_2" class="options__label">
+												<span class="options__text">Нет</span>
+											</label>
+										</div>
+									</div>
+								</div>
+
+								<div class="form__row _option">
+									<label class="form__label">Являлись ли Вы когда-то или являетесь ли Вы сейчас трейдером,
+										инвестором, торгуете ли на валютной бирже, продаете/покупаете криптовалюту и
+										занимаетесь ли Вы прочей деятельностью, связанной с фондовым рынком ?</label>
+									<div class="options">
+										<div class="options__item">
+											<input id="p4_1" class="options__input" checked type="radio" value="Да" name="step5-q4">
+											<label for="p4_1" class="options__label">
+												<span class="options__text">Да </span>
+											</label>
+										</div>
+										<div class="options__item">
+											<input id="p4_2" class="options__input" type="radio" value="Нет" name="step5-q4">
+											<label for="p4_2" class="options__label">
+												<span class="options__text">Нет</span>
+											</label>
+										</div>
+									</div>
+								</div>
+
+								<div class="form__row">
+									<label for="step5-q5" class="form__label">Укажите в каком банке или на какой платформе возможно отследить размеры транзакций, поступлений, расходов денежных средств</label>
+									<div class="input-wrapper">
+										<input type="text" id="step5-q5" class="input-wrapper__input input" placeholder="">
+									</div>
+								</div>
+
+								<div class="form__row">
+									<label for="step5-q6" class="form__label">Дополнения, комментарии, уточнения, которые вы считаете необходимым указать</label>
+									<div class="input-wrapper">
+										<input type="text" id="step5-q6" class="input-wrapper__input input" placeholder="">
+									</div>
+								</div>
+
+								<div class="form__row _d-flex">
+									<button class="form__button button button_green _icon-download" type="submit">Отправить заявку</button>
+									<div class="form__agree">
+										Нажимая кнопку «Отправить заявку», я&nbsp;подтверждаю свое согласие с&nbsp;условиями <a href="">Политики конфиденциальности</a>
+									</div>
+								</div>
+							</div>
+						</div>
+					</form>
+				</div>
+			</section>
+		</main>
+		<footer class="footer">
+			<div class="footer__container">
+				<a href="/" class="footer__logo logo">
+
+					<img src="img/logo.svg" alt="Logo">
+					Сервис самостоятельного банкротства
+				</a>
+				<div class="footer-info">
+					<ul class="footer-info__menu">
+						<li><a href="">Анкеты</a></li>
+						<li><a href="">Документы</a></li>
+						<li><a href="">Календарь</a></li>
+						<li><a href="">Новости</a></li>
+						<li><a href="">Задать вопрос</a></li>
+					</ul>
+					<div class="footer-info__copy">
+						<a class="footer-info__text text text_small" href="">Политика конфиденциальности</a>
+						<div class="footer-info__text text text_small">© 2024 Название компании</div>
+					</div>
+				</div>
+			</div>
+		</footer>
+
+	</div>
+	<script src="js/app.min.js?_v=20240822201754"></script>
+</body>
+
+</html>
